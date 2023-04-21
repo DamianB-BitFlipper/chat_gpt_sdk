@@ -2,6 +2,9 @@ library chat_gpt_sdk;
 
 export 'src/openai.dart';
 export 'src/utils/constants.dart';
+export 'src/client/exception/missing_token.dart';
+export 'src/client/exception/openai_exception.dart';
+export 'src/client/exception/request_error.dart';
 export 'src/model/client/http_setup.dart';
 export 'src/model/complete_text/request/complete_text.dart';
 export 'src/model/complete_text/response/complete_response.dart';
